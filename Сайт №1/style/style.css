@@ -365,31 +365,95 @@ textarea {
     padding: 0.2em 0;
 }
 /**
- стили меню
+ ===============Основные элементы=================
  */
-.background-color-dark{
-    background-color: #000;
-    color: white;
+ body{
+    font-family: 'Raleway', sans-serif;
 }
 
- .nav-flex-item{
+/**
+ ===============МЕНЮ=================
+ */
+
+.header__background{
+    background-color: #000;
+    color: white;
+    padding: 10px 0;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    margin-left: 10px;
+}
+
+.nav{
+    flex-direction: row;
+}
+
+ .nav__item{
      position: relative;
      text-align: center;
-     float: right;
+    
      top: 50px;
      margin-right: 38px;
- }
- 
- .menu{
      text-decoration: none;
      color: white;
+     font-weight: 700;
+     text-transform: uppercase;
  }
 
- .header-title{
+/**
+ ===============header=================
+ */
+
+ .intro-title{
      text-align: center;
+     padding-left: 25%;
+     margin: 20px 0;
      color: white;
+     font-weight: 700;
+     font-size: 48px;
+}
+
+ .intro{
+    background-image: url(../img/1613680394_5-p-fon-dlya-prezentatsii-programmirovanie-5.jpg);
+    padding: 150px 0;
+}
+
+/**
+ ===============ФУТЕР=================
+ */
+
+footer
+{
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: large;
+    padding: 10px;
+    position: fixed;
+    left: 0; bottom: 0;
+    width: 100%;
+}
+ .prosto-text{
+     text-align: justify;
+     padding-left: 2%;
+     padding-right: 5%;
+     text-indent: 5%;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     color: black;
+     font-size: large;
+     font-weight: 500;
  }
 
- .header-background{
-     background-color:;
+ .prosto-header{
+     padding-left: 3%;
+     padding-top: 10px;
+     color: black;
+     font-size: x-large;
+     font-weight: 700;
  }
