@@ -422,6 +422,7 @@ textarea {
  .intro{
     background-image: url(../img/1613680394_5-p-fon-dlya-prezentatsii-programmirovanie-5.jpg);
     padding: 150px 0;
+    border-bottom: 10px solid #000;
 }
 
 /**
@@ -440,33 +441,56 @@ footer
 }
 
 /**
- ===============текст=================
+ ===============анекдот=================
  */
+ .jokes{
+    display: flex;
+    /** justify-content: space-around;
+    align-items: stretch; */
+    flex-direction: row;
+    align-items: center;
+
+ }
 
  .prosto-text{
      text-align: justify;
-     padding: 10px 2%;
      color: black;
      font-size: large;
      font-weight: 500;
      line-height: 1.2;
-     width: 33.33333;
+     padding: 2% 5%;
+ }
+
+ .jokes__img{
+    padding: 2% 5%;
  }
 
  .prosto-header{
-     padding-left: 2%;
-     padding-top: 10px;
      color: black;
      font-size: x-large;
      font-weight: 700;
+     padding-bottom: 20px;
+     padding: 1% 5%;
  }
 
- .jokes{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
+ /**
+ ===============компетенции=================
+ */
+
+ .competencies{
+     background-color: #000;
+     color: white;
  }
+
+ .competencies__list{
+     direction: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     
+ }
+
+
 
 
 
