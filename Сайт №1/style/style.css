@@ -371,6 +371,13 @@ textarea {
     font-family: 'Raleway', sans-serif;
 }
 
+.title{
+    padding-bottom: 100px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+ }
+
 /**
  ===============МЕНЮ=================
  */
@@ -431,7 +438,10 @@ textarea {
 
 footer
 {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     background-color: whitesmoke;
     font-size: large;
     padding: 10px;
@@ -450,6 +460,8 @@ footer
     flex-direction: row;
     align-items: center;
     color: black;
+    padding: 2% 3%;
+    
  }
 
  .prosto-text{
@@ -457,19 +469,13 @@ footer
      font-size: large;
      font-weight: 500;
      line-height: 1.2;
-     padding: 2% 5%;
- }
-
- .jokes__img{
-    padding: 2% 5%;
+     margin-right: 5%; 
  }
 
  .prosto-header{
-     
      font-size: 42px;
      font-weight: 700;
      padding-bottom: 20px;
-     padding: 1% 5%;
  }
 
  /**
@@ -479,15 +485,14 @@ footer
  .competencies{
      background-color: #000;
      color: white;
-     
+     padding: 100px 0;
  }
 
  .competencies__list{
      display: flex;
-     margin: 50px 0;
      flex-direction: row;
      justify-content: space-around;
-     padding-bottom: 50px;
+     
  }
 
  .competencies__item{
@@ -500,12 +505,6 @@ footer
      height: 100px;
 }
 
- .competencies-title{
-     padding: 50px 0;
-     text-align: center;
-     font-weight: 600;
-     font-size: 42px;
- }
 
  /**
  ===============услуги=================
@@ -513,11 +512,51 @@ footer
 
  .services{
     color: #000;
+    padding: 100px;
  }
 
- .services-title{
-    padding: 50px 0;
-    text-align: center;
-    font-weight: 600;
-    font-size: 42px;
+ .services__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
  }
+
+ .services__column{
+     width: 40%;
+     list-style-type: circle;
+     font-size: large;
+     line-height: 1.5;
+ }
+ 
+
+ /**
+ ===============блок с кнопкой=================
+ */
+
+ .additional{
+    background-color: #000;
+    color: white;
+    padding: 100px;
+ }
+
+ .additional__text{
+    line-height: 1.5;
+    font-size: large;
+    margin-bottom: 1.5%;
+ }
+
+ .btn{
+     display: inline-block;
+     padding: 10px;
+
+     border-radius: 2px;
+     border: 0;;
+     cursor: pointer;
+    
+     font-family: 'Raleway', sans-serif;
+     font-size: large;
+     
+ }
+
+
+ 
