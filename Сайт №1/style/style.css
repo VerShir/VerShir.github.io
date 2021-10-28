@@ -384,7 +384,7 @@ textarea {
 
 .header__background{
     background-color: #000;
-    color: white;
+    color: whitesmoke;
     padding: 10px 0;
 }
 
@@ -408,7 +408,7 @@ textarea {
      top: 50px;
      margin-right: 38px;
      text-decoration: none;
-     color: white;
+     color: whitesmoke;
      font-weight: 600;
      text-transform: uppercase;
  }
@@ -421,7 +421,7 @@ textarea {
      text-align: center;
      padding-left: 25%;
      margin: 20px 0;
-     color: white;
+     color: whitesmoke;
      font-weight: 600;
      font-size: 48px;
 }
@@ -440,14 +440,24 @@ footer
 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     
     background-color: whitesmoke;
+    color: black;
     font-size: large;
-    padding: 10px;
+    padding: 10px 10px;
 
     left: 0; bottom: 0;
-    width: 100%;
+}
+
+.footer_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer__img{
+    margin-right: 10px;
 }
 
 /**
@@ -484,7 +494,7 @@ footer
 
  .competencies{
      background-color: #000;
-     color: white;
+     color: whitesmoke;
      padding: 100px 0;
  }
 
@@ -535,7 +545,7 @@ footer
 
  .additional{
     background-color: #000;
-    color: white;
+    color: whitesmoke;
     padding: 100px;
  }
 
