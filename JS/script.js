@@ -1,5 +1,5 @@
 function addLi() {
-    var stroka = promt('Введите название строки:', "");
+    var stroka = prompt("Введите название строки:", "");
     if (stroka){
         var ol = document.getElementById("spisokst");
         var li = document.createElement("LI");
