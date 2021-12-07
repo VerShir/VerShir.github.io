@@ -371,7 +371,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* верхняя полоса */
+/* верхняя полоса ===============================*/
 
 .following{
     
@@ -395,7 +395,7 @@ body{
     text-align: right;
 }
 
-/* header */
+/* header ==================================*/
 
 .header{
     display: flex;
@@ -406,7 +406,101 @@ body{
     color: black;
 }
 
-.nav{
+.nav__item{
     text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 14px;
 }
 
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contacts__text{
+    color: rgba(125, 125, 125, 1);
+}
+
+/* intro ==================================*/
+
+.intro{
+    background-image: url(img/Bitmap.png);
+    /*height: 497px;*/
+    padding-left: 50%;
+    padding-top: 150px;
+}
+
+.btn{
+    margin-top: 40px;
+    margin-bottom: 130px;
+    display: inline-block;
+    padding: 26px 70px;
+
+    border-radius: 2px;
+    border: 0;;
+    cursor: pointer;
+    background-color: rgba(180, 20, 27, 1);
+   
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* information */
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 85px;
+}
+
+.information__header{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+
+.information__left{
+    width: 40%;
+    padding-left: 15%;
+}
+
+.information__right{
+    padding-left: 3%;
+    padding-right: 10%;
+}
+
+.information__item{
+    height: 240px;
+    width: 55%;
+}
+
+.information__item__logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+}
+
+.information__item__header{
+    color: rgba(14, 119, 175, 1);
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 45px;
+    padding-left: 37px;
+    padding-bottom: 17px;
+}
+
+.readMore{
+    text-decoration: none;
+    color: rgba(125, 125, 125, 1);
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 37px;
+    margin-top: 20px;
+}
